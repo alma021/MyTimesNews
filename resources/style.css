@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+div {
+  display: block;
+}
+
+/*CSS header*/
+
+header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  background-color: white;
+}
+
+.logo {
+  display:flex;
+  align-items: center;
+  padding-left: 30px;
+  width: 75%;
+  height: 60px;
+}
+
+.logo img {
+  margin-right: 12px;
+}
+
+.logo span {
+  color: MediumAquamarine;
+}
+
+nav span {
+  padding: 20px 10px;
+}
+
+a {
+  color: black;
+}
+
+/* CSS content*/
+
+.content {
+  display: flex;
+  width: 92%;
+  padding-top: 100px;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.content div {
+  width: 92%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.column.large {
+  flex: 1 1 630px;
+}
+
+.column.medium {
+  flex: 1 1 300px;
+}
+
+.column.small {
+  flex: 1 1 240px;
+}
+
+.main-story {
+  display: block;
+}
+
+.image-headline {
+  height: 300px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.image-headline span {
+  text-align: center;
+}
+
+.main-story .image-headline {
+  background-image: url("images/Main Story.png");
+  height: 300px;
+  font-size: 40px;
+  text-align: left;
+  width: 100%;
+}
+
+.main-story .image-headline span {
+  margin-left: 20px;
+}
+
+.fall-pic.image-headline {
+  background-image: url("images/Fall Season.png");
+}
+
+.cameraman-pic.image-headline {
+  background-image: url("images/Hipster Cameraman.png")
+}
+
+.cat-pic.image-headline {
+  background-image: url("images/Cat CEO.png");
+}
+
+.stories-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.stories-section .headline-w-text {
+  height: 250px;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.story-text {
+  margin-top: 16px;
+}
+
+.newsbites h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.newsbites .bite {
+  display: block;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  background-color: WhiteSmoke;
+  padding: 11px 20px;
+  border-bottom: 1px solid black;
+}
+
+/*CSS footer*/
+
+footer {
+  background-color: MediumAquamarine;
+  margin-top: 100px;
+  font-family: Verdana;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 325px;
+}
+
+.compass {
+  display: inline-flex;
+}
+
+footer .trademark {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+  border-right: 2px solid white;
+  padding-right: 25px;
+  margin: auto;
+}
+
+footer nav {
+  padding-left: 25px;
+}
